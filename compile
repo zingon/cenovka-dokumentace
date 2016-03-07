@@ -1,0 +1,2 @@
+#!/bin/bash
+latex-watcher -t dokumentace.tex -c latex,latex,pdflatex

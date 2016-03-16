@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.2.24)  4 MAR 2016 00:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.2.24)  15 MAR 2016 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -410,36 +410,65 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count104
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+)
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/newfloat.sty
+Package: newfloat 2013/05/11 v1.1-91 Defining new floating environments (AR)
+)
+Package newfloat Info: New float `code' with options `' on input line 16.
+\c@code=\count105
+\newfloat@ftype=\count106
+Package newfloat Info: float type `code'=8 on input line 16.
+
+\@input{declare_languages.aux}
+\openout2 = `declare_languages.aux'.
+
+(./declare_languages.tex
 ! Too many }'s.
-l.30     }
+l.10     }
           
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 ! Too many }'s.
-l.47     }
+l.27     }
           
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-(./dokumentace.aux (./parts/titlepages.aux) (./parts/anotace.aux)
+) (./dokumentace.aux (./parts/titlepages.aux) (./parts/anotace.aux)
 (./parts/01_uvod.aux) (./parts/02_technologie.aux)
 (./parts/03_grafickeprostredi.aux))
 \openout1 = `dokumentace.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 353.
-LaTeX Font Info:    ... okay on input line 353.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 353.
-LaTeX Font Info:    ... okay on input line 353.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 353.
-LaTeX Font Info:    ... okay on input line 353.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 353.
-LaTeX Font Info:    ... okay on input line 353.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 353.
-LaTeX Font Info:    ... okay on input line 353.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 353.
-LaTeX Font Info:    ... okay on input line 353.
-LaTeX Info: Redefining \microtypecontext on input line 353.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Info: Redefining \microtypecontext on input line 38.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -454,10 +483,10 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package ragged2e Info: ABD: executing \RaggedRight on input line 353.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 38.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 353.
+LaTeX Info: Redefining \selectfont on input line 38.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -493,26 +522,72 @@ LaTeX Info: Redefining \selectfont on input line 353.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count105
+\c@lstlisting=\count107
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen125
+\scratchcounter=\count108
+\scratchdimen=\dimen127
 \scratchbox=\box28
-\nofMPsegments=\count107
-\nofMParguments=\count108
+\nofMPsegments=\count109
+\nofMParguments=\count110
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen126
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen128
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks22
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 \openout2 = `parts/titlepages.aux'.
 
- (./parts/titlepages.tex [1
+
+(./parts/titlepages.tex [1
+
+
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
@@ -607,15 +682,21 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
 )
-
-Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 12.
-See the caption package documentation for explanation.
+Overfull \hbox (0.11331pt too wide) in paragraph at lines 19--20
+\OT1/cmr/m/n/12 (+17) dokon^^Tcena revize CSS 2.1[1] Hlavn^^S^^Pm smyslem je um
+o^^Tznit n^^Savrh^^Sa^^Tr^^Wum odd^^Telit vzhled 
+ []
 
 [7
 
 
-] (./ukazky/css.css) (./ukazky/js.js
+] (./ukazky/css.css)
+Overfull \hbox (0.15567pt too wide) in paragraph at lines 24--25
+ [] \OT1/cmr/m/n/12 (+13) Ja-vaScript je mul-tiplat-formn^^S^^P, ob-jek-tov^^Te
+ ori-en-to-van^^Sy skrip-to-vac^^S^^P ja-zyk, jeho^^Tz au-to- 
+ []
+
+(./ukazky/js.js
 
 ! LaTeX Error: Undefined color `brown'.
 
@@ -700,34 +781,129 @@ l.1 /* Popis applikace */
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [8] (./ukazky/json.json) [9] (./ukazky/php.php) [10] (./ukazky/mysql.sql)
-[11]) [12]
+)
+Overfull \hbox (0.20937pt too wide) in paragraph at lines 33--34
+\OT1/cmr/m/n/12 (+5) z^^Sapisu dat (datov^^Sy form^^Sat) nez^^Savisl^^Sy na po^
+^Tc^^S^^Pta^^Tcov^^Se platform^^Te, ur^^Tcen^^Sy pro p^^Trenos dat, 
+ []
+
+
+Overfull \hbox (0.22462pt too wide) in paragraph at lines 33--34
+\OT1/cmr/m/n/12 (+3) v^^Systupem je v^^Tzdy ^^Tret^^Tezec. Slo^^Tzitost hierarc
+hie vstupn^^S^^P prom^^Tenn^^Se nen^^S^^P teoreticky nijak 
+ []
+
+[8]
+Overfull \hbox (0.11903pt too wide) in paragraph at lines 35--36
+\OT1/cmr/m/n/12 (+16) es-ca-pov^^Sany po-moc^^S^^P zp^^Tetn^^Seho lom^^S^^Ptka.
+ Mezi prvky a hod-no-tami mo-hou b^^Syt li-bo-voln^^Se 
+ []
+
+(./ukazky/json.json) [9] (./ukazky/php.php) [10] (./ukazky/mysql.sql)
+Overfull \hbox (0.20796pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/12 (+7) jednotliv^^Sa technologie, ale pojem ozna^^Tcuj^^S^^Pc^^S^
+^P pou^^Tzit^^S^^P n^^Tekolika technologi^^S^^P dohromady s 
+ []
+
+
+Overfull \hbox (10.76863pt too wide) in paragraph at lines 70--71
+ [] \OT1/cmr/m/n/12 (-20) LAMP je zkratka, kter^^Sa v in-for-ma-tice ozna^^Tcuj
+e sadu svo-bodn^^Seho soft-waru pou^^Tz^^S^^Pvan^^Seho 
+ []
+
+
+Overfull \hbox (0.13905pt too wide) in paragraph at lines 70--71
+\OT1/cmr/m/n/12 (+13) no-lo-gie: Li-nux - opera^^Tcn^^S^^P soft-ware, Apache - 
+webov^^Sy ser-ver, Ma-ri-aDB nebo MySQL - 
+ []
+
+
+Overfull \hbox (0.12997pt too wide) in paragraph at lines 77--78
+\OT1/cmr/m/n/12 (+15) sehr^^Sali Brian Behlendorf a Cliff Skolnick, kte^^Tr^^S^
+^P zalo^^Tzili e-mailovou konferenci a za^^Tcali 
+ []
+
+
+Overfull \hbox (0.17123pt too wide) in paragraph at lines 77--78
+\OT1/cmr/m/n/12 (+8) sb^^Ter ^^Suprav a jejich distribuci koordinovat. Prvn^^S^
+^P ve^^Trejn^^Sa verze s ozna^^Tcen^^S^^Pm 0.6.2 byla 
+ []
+
+[11])
+Overfull \hbox (0.1893pt too wide) in paragraph at lines 81--48
+\OT1/cmr/m/n/12 (+7) vypl^^Syv^^Sa, ^^Tze v^^Sykon je hodn^^Te z^^Savisl^^Sy na
+ zvo-len^^Sych MPM a konkr^^Setn^^S^^Pm na-sta-ven^^S^^P. Tam, 
+ []
+
+
+Overfull \hbox (0.10057pt too wide) in paragraph at lines 81--48
+\OT1/cmr/m/n/12 (+17) kde je nutn^^Se ud^^Telat kom-pro-mis ve v^^Sykonu, Apach
+e je navr^^Tzeno tak, aby la-tence byla 
+ []
+
+[12]
 \openout2 = `parts/03_grafickeprostredi.aux'.
 
- (./parts/03_grafickeprostredi.tex) [13
+ (./parts/03_grafickeprostredi.tex
+<graphic/login.png, id=49, 959.585pt x 631.35875pt>
+File: graphic/login.png Graphic file (type png)
+ <use graphic/login.png>
+Package pdftex.def Info: graphic/login.png used on input line 10.
+(pdftex.def)             Requested size: 441.01773pt x 290.16844pt.
+
+Overfull \hbox (0.14941pt too wide) in paragraph at lines 7--13
+\OT1/cmr/m/n/12 (-5) Styl, kter^^Sy byl pou^^Tzit byl co nej-jed-nodu^^Ts^^S^^P
+ to ^^Tslo. Je to hlavn^^S^^P strana apli-kace. V^^Tsechno 
+ []
+
+<graphic/register.png, id=50, 995.72pt x 539.01375pt>
+File: graphic/register.png Graphic file (type png)
+
+<use graphic/register.png>
+Package pdftex.def Info: graphic/register.png used on input line 20.
+(pdftex.def)             Requested size: 441.01773pt x 238.73769pt.
+ [13
 
 
-] (./dokumentace.aux
-(./parts/titlepages.aux) (./parts/anotace.aux) (./parts/01_uvod.aux)
-(./parts/02_technologie.aux) (./parts/03_grafickeprostredi.aux)) ) 
+ <./graphic/login.png>]
+<graphic/alert.png, id=54, 744.7825pt x 208.78pt>
+File: graphic/alert.png Graphic file (type png)
+ <use graphic/alert.png>
+Package pdftex.def Info: graphic/alert.png used on input line 28.
+(pdftex.def)             Requested size: 441.01773pt x 123.63148pt.
+)
+[14 <./graphic/register.png> <./graphic/alert.png>] (./dokumentace.lol)
+\tf@lol=\write4
+\openout4 = `dokumentace.lol'.
+
+
+(./dokumentace.lof)
+\tf@lof=\write5
+\openout5 = `dokumentace.lof'.
+
+ [15
+
+] (./dokumentace.aux (./parts/titlepages.aux)
+(./parts/anotace.aux) (./parts/01_uvod.aux) (./parts/02_technologie.aux)
+(./parts/03_grafickeprostredi.aux)) ) 
 Here is how much of TeX's memory you used:
- 7775 strings out of 493085
- 112684 string characters out of 6136917
- 277609 words of memory out of 5000000
- 11095 multiletter control sequences out of 15000+600000
- 10128 words of font info for 55 fonts, out of 8000000 for 9000
+ 8443 strings out of 493085
+ 123888 string characters out of 6136917
+ 291302 words of memory out of 5000000
+ 11704 multiletter control sequences out of 15000+600000
+ 10346 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,5n,70p,1068b,2189s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmtt10.pfb>
-Output written on dokumentace.pdf (14 pages, 110005 bytes).
+ 44i,7n,70p,1096b,2199s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb>
+Output written on dokumentace.pdf (16 pages, 148390 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 12289 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 12816 words of extra memory for PDF output out of 14400 (max. 10000000)
 

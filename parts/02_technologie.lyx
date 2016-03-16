@@ -1,0 +1,674 @@
+#LyX file created by tex2lyx 2.1
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\options titlepage
+\use_default_options false
+\maintain_unincluded_children false
+\language czech
+\language_package default
+\inputencoding utf8
+\fontencoding default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language german
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+\lang czech
+Použité technologie a vývojová prostředí
+\end_layout
+
+\begin_layout Subsection
+
+\lang czech
+HTML
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+HyperText Markup Language (zkratka HTML) je v informatice název značkovacího jazyka používaného pro tvorbu webových stránek, které jsou propojeny hypertextovými odkazy. HTML je hlavním z jazyků pro vytváření stránek v systému World Wide Web, který umožňuje publikaci dokumentů na Internetu. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Jazyk je aplikací dříve vyvinutého rozsáhlého univerzálního značkovacího jazyka SGML (Standard Generalized Markup Language). Vývoj HTML byl ovlivněn vývojem webových prohlížečů, které zpětně ovlivňovaly definici jazyka. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Verze 4.01 byla vydána 24. prosince 1999 komunitou W3C. Tato verze opravuje některé chyby verze předchozí verze 4.0. Podle původního předpokladu se mělo jednat o poslední verzi, po které by se přešlo na XHTML – následníkovi HTML, využívajícímu univerzální jazyk XML. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Po patnáctileté odmlce byla vydána nová verze. Ta již ukončuje závislost HTML na SGML opravuje mnoho chyb předešlé verze, vyřazuje mnoho zastaralých a již nepoužívaných prvků a přidává nové sémantické prvky. Zároveň přidává podporu mnohých nových a moderních technologií a zavádí nový systém vývoje jazyka.
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+lstinputlisting
+\end_layout
+
+\end_inset
+
+[style=htmlcssjs,captionpos=b,caption=HTML]
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+ukazky/html.html
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang czech
+CSS
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Kaskádové styly (v anglickém originále Cascading Style Sheets se zkratkou CSS) jsou v informatice jazyk pro popis způsobu zobrazení elementů na stránkách napsaných v jazycích HTML, XHTML nebo XML. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Jazyk byl navržen standardizační organizací W3C, autorem prvotního návrhu byl Håkon Wium Lie. Byly vydány CSS1, CSS2 a CSS3. Dne 7. června 2011 byla dokončena revize CSS 2.1[1] Hlavním smyslem je umožnit návrhářům oddělit vzhled dokumentu od jeho struktury a obsahu. Původně to měl umožnit už jazyk HTML, ale v důsledku nedostatečných standardů a konkurenčního boje výrobců prohlížečů se vyvinul jinak. Starší verze HTML obsahují celou řadu elementů, které nepopisují obsah a strukturu dokumentu, ale i způsob jeho zobrazení. Z hlediska zpracování dokumentů a vyhledávání informací není takový vývoj žádoucí. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+lstinputlisting
+\end_layout
+
+\end_inset
+
+[style=css,captionpos=b,caption=CSS]
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+ukazky/css.css
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang czech
+Javascript
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+JavaScript je multiplatformní, objektově orientovaný skriptovací jazyk, jehož autorem je Brendan Eich z tehdejší společnosti Netscape. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Nyní se zpravidla používá jako interpretovaný programovací jazyk pro WWW stránky, často vkládaný přímo do HTML kódu stránky. Jsou jím obvykle ovládány různé interaktivní prvky GUI (tlačítka, textová políčka) nebo tvořeny animace a efekty obrázků. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Jeho syntaxe patří do rodiny jazyků C/C++/Java. Slovo Java je však součástí jeho názvu pouze z marketingových důvodů a s programovacím jazykem Java jej vedle názvu spojuje jen podobná syntaxe. JavaScript byl v červenci 1997 standardizován asociací ECMA (European Computer Manufacturers Association) a v srpnu 1998 ISO (International Organization for Standardization). Standardizovaná verze JavaScriptu je pojmenována jako ECMAScript a z ní byly odvozeny i další implementace, jako je například ActionScript. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+lstinputlisting
+\end_layout
+
+\end_inset
+
+[style=js,captionpos=b,caption=Javascript]
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+ukazky/js.js
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang czech
+JSON
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+JavaScript Object Notation (JavaScriptový objektový zápis, JSON) je způsob zápisu dat (datový formát) nezávislý na počítačové platformě, určený pro přenos dat, která mohou být organizována v polích nebo agregována v objektech. Vstupem je libovolná datová struktura (číslo, řetězec, boolean, objekt nebo z nich složené pole), výstupem je vždy řetězec. Složitost hierarchie vstupní proměnné není teoreticky nijak omezena. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+JSON umí pojmout pole hodnot (neindexované i indexované, tzv. hash), objekty (coby pole dvojic index:hodnota) a jednotlivé hodnoty, kterými mohou být řetězce, čísla (celá i s plovoucí desetinnou tečkou) a speciální hodnoty true, false a null. Indexy polí v objektu mají notaci jako řetězce; řetězce jsou uváděny v uvozovkách a escapovány pomocí zpětného lomítka. Mezi prvky a hodnotami mohou být libovolné bílé znaky, které na výsledku nic nemění. JSON jako formát neřeší kódování textu, výchozí kódování je ale UTF-8.
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+lstinputlisting
+\end_layout
+
+\end_inset
+
+[style=js,captionpos=b,caption=JSON]
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+ukazky/json.json
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang czech
+PHP
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+PHP (rekurzivní zkratka PHP: Hypertext Preprocessor, česky „PHP: Hypertextový preprocesor“, původně Personal Home Page) je skriptovací programovací jazyk. Je určený především pro programování dynamických internetových stránek a webových aplikací například ve formátu HTML, XHTML či WML. PHP lze použít i k tvorbě konzolových a desktopových aplikací. Pro desktopové použití existuje kompilovaná forma jazyka. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Při použití PHP pro dynamické stránky jsou skripty prováděny na straně serveru – k uživateli je přenášen až výsledek jejich činnosti. Interpret PHP skriptu je možné volat pomocí příkazového řádku, dotazovacích metod HTTP nebo pomocí webových služeb. Syntaxe jazyka je inspirována několika programovacími jazyky (Perl, C, Pascal a Java). PHP je nezávislý na platformě, rozdíly v různých operačních systémech se omezují na několik systémově závislých funkcí a skripty lze většinou mezi operačními systémy přenášet bez jakýchkoli úprav. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+PHP podporuje mnoho knihoven pro různé účely – např. zpracování textu, grafiky, práci se soubory, přístup k většině databázových systémů (mj. MySQL, ODBC, Oracle, PostgreSQL, MSSQL), podporu celé řady internetových protokolů (HTTP, SMTP, SNMP, FTP, IMAP, POP3, LDAP, …). 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+PHP je nejrozšířenějším skriptovacím jazykem pro web, v současnosti (listopad 2014) s podílem 82 %. Oblíbeným se stal především díky jednoduchosti použití, bohaté zásobě funkcí. V kombinaci s operačním systémem Linux, databázovým systémem (obvykle MySQL nebo PostgreSQL) a webovým serverem Apache je často využíván k tvorbě webových aplikací. Pro tuto kombinaci se vžila zkratka LAMP – tedy spojení Linux, Apache, MySQL a PHP, Perl nebo Python. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+V PHP jsou napsány i velké internetové internetové projekty, včetně Wikipedie nebo Facebooku (Facebook používá PHP transformované do C++ pomocí aplikace HipHop for PHP a to především kvůli vyšší rychlosti). 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+lstinputlisting
+\end_layout
+
+\end_inset
+
+[style=php,captionpos=b,caption=PHP]
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+ukazky/php.php
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang czech
+MySQL
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+MySQL je databázový systém, vytvořený švédskou firmou MySQL AB, nyní vlastněný společností Sun Microsystems, dceřinou společností Oracle Corporation. Jeho hlavními autory jsou Michael „Monty“ Widenius a David Axmark. Je považován za úspěšného průkopníka dvojího licencování – je k dispozici jak pod bezplatnou licencí GPL, tak pod komerční placenou licencí. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+MySQL je multiplatformní databáze. Komunikace s ní probíhá – jak už název napovídá – pomocí jazyka SQL. Podobně jako u ostatních SQL databází se jedná o dialekt tohoto jazyka s některými rozšířeními. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Pro svou snadnou implementovatelnost (lze jej instalovat na Linux, MS Windows, ale i další operační systémy), výkon a především díky tomu, že se jedná o volně šiřitelný software, má vysoký podíl na v současné době používaných databázích. Velmi oblíbená a často nasazovaná je kombinace Linux, Apache, MySQL a PHP, jako základní software webového serveru („technologie LAMP“). 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+MySQL bylo od počátku optimalizováno především na rychlost, a to i za cenu některých zjednodušení: má jen jednoduché způsoby zálohování, a až donedávna nepodporovalo pohledy, triggery, a uložené procedury. Tyto vlastnosti jsou doplňovány teprve v posledních letech, kdy začaly nejčastějším uživatelům produktu – programátorům webových stránek – již poněkud scházet. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+lstinputlisting
+\end_layout
+
+\end_inset
+
+[style=sql,captionpos=b,caption=SQL]
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+ukazky/mysql.sql
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang czech
+AJAX
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+AJAX (Asynchronous JavaScript and XML) je v informatice obecné označení pro technologie vývoje interaktivních webových aplikací, které mění obsah svých stránek bez nutnosti jejich kompletního znovunačítání za pomoci asynchronního zpracování webových stránek pomocí knihovny napsané v JavaScriptu. Na rozdíl od klasických webových aplikací poskytují uživatelsky příjemnější prostředí, ale vyžadují použití moderních webových prohlížečů. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Podobně jako DHTML, LAMP nebo SPA, Ajax ve skutečnosti není konkrétní jednotlivá technologie, ale pojem označující použití několika technologií dohromady s určitým cílem. 
+\end_layout
+
+\begin_layout Subsection
+
+\lang czech
+LAMP
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+LAMP je zkratka, která v informatice označuje sadu svobodného softwaru používaného jako platforma pro implementaci dynamických webových stránek. Zahrnuje tyto technologie: Linux - operační software, Apache - webový server, MariaDB nebo MySQL - databázový systém, PHP,Perl nebo Python - scriptovací jazyk 
+\end_layout
+
+\begin_layout Subsection
+
+\lang czech
+Apache2 HTTP Server
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Apache HTTP Server je softwarový webový server s otevřeným kódem pro GNU/Linux, BSD, Solaris, Mac OS X, Microsoft Windows a další platformy. V současné době dodává prohlížečům na celém světě většinu internetových stránek 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Vývoj Apache začal v roce 1993 v NCSA (National Center for Supercomputing Aplications) na Illinoiské univerzitě. Původní jméno projektu bylo NCSA HTTPd. V dalším roce však vývojářský tým opustil hlavní programátor Rob McCool, tím došlo ke zpomalení vývoje a poté, v roce 1998, k úplnému zastavení. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+NCSA HTTPd však mezitím už používali správci webových serverů a dodávali k němu vlastní úpravy – patche (patch = záplata). Hlavní úlohu v dalším vývoji sehráli Brian Behlendorf a Cliff Skolnick, kteří založili e-mailovou konferenci a začali sběr úprav a jejich distribuci koordinovat. První veřejná verze s označením 0.6.2 byla vydána v dubnu 1995. Následovalo kompletní přepsání kódu (Apache2 už neobsahuje nic z původního NCSA HTTPd) a založení Apache Group, která je dnes základem vývojářského týmu. 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Od dubna 1996 byl Apache nejpopulárnější server na internetu. V květnu 1999 běžel na 57 % všech serverů a v listopadu 2005 jeho používanost dosáhla 69 % 
+\end_layout
+
+\begin_layout Paragraph
+
+\lang czech
+
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Přestože hlavním cílem Apache není být „nejrychlejším“ webovým serverem, jeho výkon se může srovnávat s ostatními výkonnými webovými servery. Místo implementování jedné architektury, Apache poskytuje mnoho tzv. MultiProcessing modulů (MPM) což mu dovoluje přizpůsobit se potřebám systému na kterém běží. Z toho vyplývá, že výkon je hodně závislý na zvolených MPM a konkrétním nastavení. Tam, kde je nutné udělat kompromis ve výkonu, Apache je navrženo tak, aby latence byla co nejnižší a propustnost co nejvyšší, vzhledem k obsluze více požadavků, tedy zajistit konzistentní a spolehlivé obsloužení požadavků v co nejkratším časovém rámci.
+\end_layout
+
+\end_body
+\end_document

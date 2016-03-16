@@ -1,0 +1,106 @@
+#LyX file created by tex2lyx 2.1
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\options titlepage
+\use_default_options false
+\maintain_unincluded_children false
+\language czech
+\language_package default
+\inputencoding utf8
+\fontencoding default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language german
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+
+\lang czech
+Anotace
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+Tématem maturitní práce jsou webové stránky Cenová nabídka, cílová skupina této webové stránky jsou malý, či středně velcí podnikatelé. Tato webová stránka sprostředkovává jejím uživatelům rychlou a jednoduchou cestu k vytvoření cenové nabídky. Uživatel může v této webové aplikaci snadno zálohovat verze jeho dokumentů nebo si například vytvářet seznam pracovních kontaktů. Webová stránka se může nabídnou responzivní, intuitivní desing a spoustu dalšího. 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\lang czech
+Anotation
+\end_layout
+
+\begin_layout Standard
+
+\lang czech
+The theme of leaving school exam work is web page called Cenova nabidka, target group of this web page are small and middlesize businesses. This web page gives their users fast and easy way to create price offer dokument. User can in this web aplication easly backup states of his documents or for exempl create list of his work contacts. This web page can offer responsive and intuitive desing and lot more. 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

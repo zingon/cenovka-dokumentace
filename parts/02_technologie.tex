@@ -8,8 +8,8 @@ Jazyk je aplikací dříve vyvinutého rozsáhlého univerzálního značkovací
 Verze 4.01 byla vydána 24. prosince 1999 komunitou W3C. Tato verze opravuje některé chyby verze předchozí verze 4.0. Podle původního předpokladu se mělo jednat o poslední verzi, po které by se přešlo na XHTML – následníkovi HTML, využívajícímu univerzální jazyk XML.
 \paragraph{}
 Po patnáctileté odmlce byla vydána nová verze. Ta již ukončuje závislost HTML na SGML opravuje mnoho chyb předešlé verze, vyřazuje mnoho zastaralých a již nepoužívaných prvků a přidává nové sémantické prvky. Zároveň přidává podporu mnohých nových a moderních technologií a zavádí nový systém vývoje jazyka.
-\lstinputlisting[style=htmlcssjs]{ukazky/html.html}
-\captionof{lstlisting}{HTML}
+
+\lstinputlisting[style=htmlcssjs,captionpos=b,caption=HTML]{ukazky/html.html}
 
 
 \subsection{CSS}
@@ -17,8 +17,7 @@ Po patnáctileté odmlce byla vydána nová verze. Ta již ukončuje závislost 
 Kaskádové styly (v anglickém originále Cascading Style Sheets se zkratkou CSS) jsou v informatice jazyk pro popis způsobu zobrazení elementů na stránkách napsaných v jazycích HTML, XHTML nebo XML.
 \paragraph{}
 Jazyk byl navržen standardizační organizací W3C, autorem prvotního návrhu byl Håkon Wium Lie. Byly vydány CSS1, CSS2 a CSS3. Dne 7. června 2011 byla dokončena revize CSS 2.1[1] Hlavním smyslem je umožnit návrhářům oddělit vzhled dokumentu od jeho struktury a obsahu. Původně to měl umožnit už jazyk HTML, ale v důsledku nedostatečných standardů a konkurenčního boje výrobců prohlížečů se vyvinul jinak. Starší verze HTML obsahují celou řadu elementů, které nepopisují obsah a strukturu dokumentu, ale i způsob jeho zobrazení. Z hlediska zpracování dokumentů a vyhledávání informací není takový vývoj žádoucí.
-\lstinputlisting[style=css]{ukazky/css.css}
-\captionof{lstlisting}{CSS}
+\lstinputlisting[style=css,captionpos=b,caption=CSS]{ukazky/css.css}
 
 \subsection{Javascript}
 \paragraph{}
@@ -27,16 +26,15 @@ JavaScript je multiplatformní, objektově orientovaný skriptovací jazyk, jeho
 Nyní se zpravidla používá jako interpretovaný programovací jazyk pro WWW stránky, často vkládaný přímo do HTML kódu stránky. Jsou jím obvykle ovládány různé interaktivní prvky GUI (tlačítka, textová políčka) nebo tvořeny animace a efekty obrázků.
 \paragraph{}
 Jeho syntaxe patří do rodiny jazyků C/C++/Java. Slovo Java je však součástí jeho názvu pouze z marketingových důvodů a s programovacím jazykem Java jej vedle názvu spojuje jen podobná syntaxe. JavaScript byl v červenci 1997 standardizován asociací ECMA (European Computer Manufacturers Association) a v srpnu 1998 ISO (International Organization for Standardization). Standardizovaná verze JavaScriptu je pojmenována jako ECMAScript a z ní byly odvozeny i další implementace, jako je například ActionScript.
-\lstinputlisting[style=js]{ukazky/js.js}
-\captionof{lstlisting}{Javascript}
+\lstinputlisting[style=js,captionpos=b,caption=Javascript]{ukazky/js.js}
+
 \subsection{JSON}
 \paragraph{}
 JavaScript Object Notation (JavaScriptový objektový zápis, JSON) je způsob zápisu dat (datový formát) nezávislý na počítačové platformě, určený pro přenos dat, která mohou být organizována v polích nebo agregována v objektech. Vstupem je libovolná datová struktura (číslo, řetězec, boolean, objekt nebo z nich složené pole), výstupem je vždy řetězec. Složitost hierarchie vstupní proměnné není teoreticky nijak omezena.
 \paragraph{}
 JSON umí pojmout pole hodnot (neindexované i indexované, tzv. hash), objekty (coby pole dvojic index:hodnota) a jednotlivé hodnoty, kterými mohou být řetězce, čísla (celá i s plovoucí desetinnou tečkou) a speciální hodnoty true, false a null. Indexy polí v objektu mají notaci jako řetězce; řetězce jsou uváděny v uvozovkách a escapovány pomocí zpětného lomítka. Mezi prvky a hodnotami mohou být libovolné bílé znaky, které na výsledku nic nemění. JSON jako formát neřeší kódování textu, výchozí kódování je ale UTF-8.
 
-\lstinputlisting[style=js]{ukazky/json.json}
-\captionof{lstlisting}{JSON}
+\lstinputlisting[style=js,captionpos=b,caption=JSON]{ukazky/json.json}
 
 \subsection{PHP}
 \paragraph{}
@@ -49,8 +47,8 @@ PHP podporuje mnoho knihoven pro různé účely – např. zpracování textu, 
 PHP je nejrozšířenějším skriptovacím jazykem pro web, v současnosti (listopad 2014) s podílem 82 \%. Oblíbeným se stal především díky jednoduchosti použití, bohaté zásobě funkcí. V kombinaci s operačním systémem Linux, databázovým systémem (obvykle MySQL nebo PostgreSQL) a webovým serverem Apache je často využíván k tvorbě webových aplikací. Pro tuto kombinaci se vžila zkratka LAMP – tedy spojení Linux, Apache, MySQL a PHP, Perl nebo Python.
 \paragraph{}
 V PHP jsou napsány i velké internetové internetové projekty, včetně Wikipedie nebo Facebooku (Facebook používá PHP transformované do C++ pomocí aplikace HipHop for PHP a to především kvůli vyšší rychlosti).
-\lstinputlisting[style=php]{ukazky/php.php}
-\captionof{lstlisting}{PHP}
+\lstinputlisting[style=php,captionpos=b,caption=PHP]{ukazky/php.php}
+
 \subsection{MySQL}
 \paragraph{}
 MySQL je databázový systém, vytvořený švédskou firmou MySQL AB, nyní vlastněný společností Sun Microsystems, dceřinou společností Oracle Corporation. Jeho hlavními autory jsou Michael „Monty“ Widenius a David Axmark. Je považován za úspěšného průkopníka dvojího licencování – je k dispozici jak pod bezplatnou licencí GPL, tak pod komerční placenou licencí.
@@ -60,8 +58,8 @@ MySQL je multiplatformní databáze. Komunikace s ní probíhá – jak už náz
 Pro svou snadnou implementovatelnost (lze jej instalovat na Linux, MS Windows, ale i další operační systémy), výkon a především díky tomu, že se jedná o volně šiřitelný software, má vysoký podíl na v současné době používaných databázích. Velmi oblíbená a často nasazovaná je kombinace Linux, Apache, MySQL a PHP, jako základní software webového serveru („technologie LAMP“).
 \paragraph{}
 MySQL bylo od počátku optimalizováno především na rychlost, a to i za cenu některých zjednodušení: má jen jednoduché způsoby zálohování, a až donedávna nepodporovalo pohledy, triggery, a uložené procedury. Tyto vlastnosti jsou doplňovány teprve v posledních letech, kdy začaly nejčastějším uživatelům produktu – programátorům webových stránek – již poněkud scházet.
-\lstinputlisting[style=sql]{ukazky/mysql.sql}
-\captionof{lstlisting}{SQL}
+\lstinputlisting[style=sql,captionpos=b,caption=SQL]{ukazky/mysql.sql}
+
 \subsection{AJAX}
 \paragraph{}
 AJAX (Asynchronous JavaScript and XML) je v informatice obecné označení pro technologie vývoje interaktivních webových aplikací, které mění obsah svých stránek bez nutnosti jejich kompletního znovunačítání za pomoci asynchronního zpracování webových stránek pomocí knihovny napsané v JavaScriptu. Na rozdíl od klasických webových aplikací poskytují uživatelsky příjemnější prostředí, ale vyžadují použití moderních webových prohlížečů.

@@ -42,3 +42,11 @@
 \contentsline {paragraph}{}{12}
 \contentsline {paragraph}{}{12}
 \contentsline {section}{\numberline {3}Grafick\IeC {\'e} prost\IeC {\v r}ed\IeC {\'\i }}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {subsection}{\numberline {3.1}\IeC {\'U}vodn\IeC {\'\i } \IeC {\v c}\IeC {\'a}st}{13}
+\contentsline {subsubsection}{\numberline {3.1.1}P\IeC {\v r}ihla\IeC {\v s}ovac\IeC {\'\i } str\IeC {\'a}nka}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {subsubsection}{\numberline {3.1.2}Registra\IeC {\v c}n\IeC {\'\i } str\IeC {\'a}nka}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {subsection}{\numberline {3.2}Oznamovac\IeC {\'\i } oblast}{14}
